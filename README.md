@@ -31,6 +31,8 @@ Universe of Discourse: This defines the full range of possible values for a vari
 **Defuzzification**: and Finnaly we Calculating the Prediction Value (the "crisp" number) from the fuzzy set by using the center of the area or entropy (I am using entropy).
 
 
+## ScreenShots
+### Define Antecedent/Consequent
 
 
 
