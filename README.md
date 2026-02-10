@@ -31,8 +31,13 @@ Universe of Discourse: This defines the full range of possible values for a vari
 **Defuzzification**: and Finnaly we Calculating the Prediction Value (the "crisp" number) from the fuzzy set by using the center of the area or entropy (I am using entropy).
 
 
-## ScreenShots
-### Define Antecedent/Consequent
+## Result
+
+<img src="./imgs/deffuzification_res.png">
+
+``` bash
+Air_Humidity = 17, Temperature = 48, Soil_Moisture = 80 --> 128.8297872340425 ml
+```
 
 
 
