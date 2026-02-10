@@ -16,9 +16,13 @@ To build this system, I utilized Fuzzy Logic principles (defined in doc.py). The
 Universe of Discourse: This defines the full range of possible values for a variable. For example, the Universe of Discourse for temperature might be set from -100°C to 100°C.
 
 **Linguistic Variables & Values**: While "Temperature" is the variable, it is expressed through linguistic values such as Cold, Cool, Warm, or Hot.
-
 **Membership Functions (Dealing with Uncertainty)**: Unlike Predicate Logic, which uses strict "True/False" boundaries, this system uses overlapping intervals.
-
 **Example**: We don't just say "Cool" is exactly between 20°C and 30°C. Instead, we define a range (e.g., 15°C to 25°C) where the temperature is "partially cool." This allows the system to handle the uncertainty of the real world, ensuring a smooth transition between states rather than a sudden jump.
+
+**NOTE: you can find all technical documentation in doc.py**
+
+
+
+
 
 
