@@ -18,9 +18,17 @@ Universe of Discourse: This defines the full range of possible values for a vari
 **Linguistic Variables & Values**: While "Temperature" is the variable, it is expressed through linguistic values such as Cold, Cool, Warm, or Hot.
 **Membership Functions (Dealing with Uncertainty)**: Unlike Predicate Logic, which uses strict "True/False" boundaries, this system uses overlapping intervals.
 **Example**: We don't just say "Cool" is exactly between 20°C and 30°C. Instead, we define a range (e.g., 15°C to 25°C) where the temperature is "partially cool." This allows the system to handle the uncertainty of the real world, ensuring a smooth transition between states rather than a sudden jump.
+**Fuzzy set**: Each linguistic value (cold, warm, hot) is represented by a fuzzy set.
 
 **NOTE: you can find all technical documentation in doc.py**
 
+## Project Steps:
+**Universe of Discourse**: You must know the range for each Linguistic Variable (0 to 100) and for each Linguistic Value (where "Cool" starts and ends).
+**Antecedent and Consequent**: Define your inputs (Antecedents like Temperature) and your output (Consequent like Water Amount).
+**Fuzzification**: The process of converting a real number into a fuzzy value based on the intervals you defined.
+**Define Rules**: Create the "If-Then" logic (IF it is hot AND dry, THEN give more water).
+**Aggregation**: Here we Combining all the results from your rules into one single fuzzy set.
+**Defuzzification**: and Finnaly we Calculating the Prediction Value (the "crisp" number) from the fuzzy set by using the center of the area or entropy (I am using entropy).
 
 
 
